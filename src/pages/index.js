@@ -34,7 +34,9 @@ class IndexPage extends React.Component {
             alt="Rendering of the Hull Breach book" 
             placeholder="blurred"  
           />
-          <a href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1">Follow us on Kickstarter</a>
+          <a className="ks-link" href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1">
+            <h3>Follow us on Kickstarter</h3>
+          </a>
           <p>HULL BREACH is the first hardcover book for the Mothership Sci-Fi Horror RPG. This massive collaboration between 20 independent authors packs dozens of new scenarios, essays, bestiaries, system-hacks, toolkits, and more into over 200 beautifully designed pages. Follow our Kickstarter page for a notification when it goes live in January.</p>
         </section>
 

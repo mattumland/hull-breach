@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://use.typekit.net/iok0apy.css");
+
 
 html {
   background-color: black;
@@ -11,7 +13,7 @@ main {
   margin: 0 auto;
   width: 100%;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'ff-good-web-pro', sans-serif;
 }
 
 .content-section {
@@ -25,8 +27,16 @@ main {
   display: none;
 }
 
+.ks-link {
+  margin: 1em 0 .5em 0; 
+}
+
 a:hover {
   cursor: pointer;
+}
+
+a:visited {
+  color: gray;
 }
 
 .ad {
@@ -52,7 +62,7 @@ a:hover {
   
   @-webkit-keyframes fadeinout {
     0% { opacity: 1; }
-    98% { opacity: .70; }
+    98% { opacity: .97; }
     100% { opacity: .40; }
   }
   
