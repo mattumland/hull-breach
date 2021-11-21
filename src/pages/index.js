@@ -39,11 +39,15 @@ class IndexPage extends React.Component {
         </section>
 
         <button className="ad" onClick= { this.toggleBanner }>
-          {!this.state.bannerClick &&           
-            <StaticImage 
-            src="../images/banner.png"  
-            alt="AD - click here if you or a loved one where injured in the Hodder Forest Reserve Habitat accident."
-          />}
+          {!this.state.bannerClick &&  
+            <div className="static">         
+              <StaticImage 
+              src="../images/banner.png"  
+              alt="AD - click here if you or a loved one where injured in the Hodder Forest Reserve Habitat accident."
+              className="flicker"
+              />
+            </div>
+          }
           {this.state.bannerClick &&           
             <img 
             src=""  
