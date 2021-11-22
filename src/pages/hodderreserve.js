@@ -1,6 +1,6 @@
 import React from "react";
-import "./styles.scss"
 import "normalize.css"
+import "./styles.scss"
 
 const hodderreserve = () => {
   return (
