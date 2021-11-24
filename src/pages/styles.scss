@@ -29,6 +29,12 @@ main {
   font-family: 'ff-good-web-pro', sans-serif;
 }
 
+button {
+  padding: 0;
+  border: 0;
+  margin: 0; 
+}
+
 .content-section {
   display: flex;
   flex-direction: column;
@@ -82,7 +88,7 @@ main {
   .static {
     background-image: url("../images/static.png");
     background-position: top-left;
-    animation: static-gitter 1s infinite;
+    animation: static-gitter .1s infinite;
   }
   
   .flicker {
