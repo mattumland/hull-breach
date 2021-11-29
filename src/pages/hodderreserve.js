@@ -12,32 +12,42 @@ class hodderreserve extends React.Component {
     }
   }
 
-  secretMessage() {
+  secretMessage = () => {
     console.log('giveme____ ____s')
   }
 
-  wrongOne() {
-    alert('��console error - wrong one:b��')
+  wrongOne = () => {
+    alert('��console error - wrong one:�^�')
     console.log('wrong one')
   }
 
-  handleChange(event) {
-    console.log(event)
-    this.setState({value: event.target.value});
+  handleInputChange = (event) => {
+    const target = event.target
+    const value = target.value
+    const name = target.name
+    this.setState({
+      [name]: value,
+    })
   }
 
-  // handleSubmit(event) {
-  //   alert('A name was submitted: ' + this.state.value);
-  //   event.preventDefault();
-  // }
+  handleSubmit = (event) => {
+    if (this.state.password === "givemeyourhands") {
+      // insert automatic email code
+      alert('AUTHORIZED USED DETECTED. CHECK YOUR EMAIL.')
+    } else {
+      alert(`UNAUTHORIZED LOGIN DETECTED ACCOUNT ASSOCIATED WITH ${this.state.email} HAS BEEN FLAGGED FOR CENSURE AND FORFEITURE OF ASSETS PER CORPORATE CODE OF CONDUCT 2A-1BT SECTION 45.C.5` )
+    }
+    event.preventDefault();
+  }
 
   render() {
+    console.log(this.state)
     return (
       <div className="site-background">
         <title>Hodder Forest Reserve Habitat</title>
         <div className="top-section">
-          <h1>Welcome to Hodder Forest Reserve Habitat</h1>
-          <h2>When you're here, you're family.</h2>
+          <h1 className="hodderH1">Welcome to Hodder Forest Reserve Habitat</h1>
+          <h2 className="hodderH2">When you're here, you're family.</h2>
           <button className="static" onClick={this.secretMessage}>
             <StaticImage 
               src="../images/corporate-humans.jpg"  
@@ -47,14 +57,14 @@ class hodderreserve extends React.Component {
             />
           </button>
         </div>
-        <h3 className="subhead">
+        <h3 className="hodderH3">
           At Hodder Forest Reserve Habitat we help you leverage agile frameworks to provide a robust synopsis for high level overviews. 
           Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. 
         </h3>
         <section className="lower-section">
             <div className="grid-container">
               <div className="upper-left">
-                <h4>
+                <h4 className="hodderH4">
                   Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
                   Bring to the table win-win survival strategies to ensure proactive domination. 
                   At the end of the � day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. 
@@ -74,7 +84,7 @@ class hodderreserve extends React.Component {
                 </button>
               </div>
               <div className="bottom-right">
-                <h4>
+                <h4 className="hodderH4">
                   Override the digital divide with additional clickthroughs from DevOps. 
                   EXTERIOR&lt;div&gt;
                   Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
@@ -87,14 +97,12 @@ class hodderreserve extends React.Component {
                 </h4>    
               </div> 
               <div className="bottom-left">
-                <form className="form-area"  onSubmit={this.handleSubmit}>
-                  <label>
-                    email:
-                    <input type="email" value={this.state.email} onChange={this.handleChange} />
+                <form className="form-area" onSubmit={this.handleSubmit}>
+                  <label>email:
+                    <input type="email" name="email" id="email" value={this.state.email} onChange={this.handleInputChange} />
                   </label>
-                  <label>
-                    password:
-                    <input type="password" value={this.state.password} onChange={this.handleChange} />
+                  <label>password:
+                    <input type="password" name="password" id="password" value={this.state.password} onChange={this.handleInputChange} />
                   </label>
                   <input type="submit" value="Submit" />
                 </form>
