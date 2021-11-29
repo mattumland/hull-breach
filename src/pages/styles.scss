@@ -1,32 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url("https://use.typekit.net/iok0apy.css");
 
-html {
-  background-color: black;
-  color: white;
-}
 
 h2 {
-  font-size: 2em;
-    @media screen and (min-width: 800px) {
-      font-size: 2.75em;
+  font-size: 3em;
+  color: whitesmoke;
+  @media screen and (min-width: 800px) {
+      font-size: 4em;
     }
-}
-
-h3 {
-  font-size: 1.25em;
-    @media screen and (min-width: 800px) {
-      font-size: 1.75em;
-    }
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  width: 100%;
-  text-align: center;
-  font-family: 'ff-good-web-pro', sans-serif;
+  
 }
 
 button {
@@ -35,14 +17,30 @@ button {
   margin: 0; 
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  font-family: 'ff-good-web-pro', sans-serif;
+}
+
+  
+.banner {
+  background-color: black;
+}
+
 .content-section {
+  background-color: whitesmoke;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
 
   .feature {
-  margin: 0 auto;
+  margin: 2em auto;
 
     @media screen and (min-width: 800px) {
       display: grid;
@@ -52,26 +50,33 @@ button {
     }
     
     .description {
+      font-size: 1em;
       @media screen and (min-width: 800px) {
+        font-size: 1.75em;
         text-align: left;
         margin: 0 .5em 0 .5em;
         grid-area: 1 / 2 / 2 / 3;
       }
     }
+
+    .rendering {
+      margin: 0 auto;
+      object-fit: contain;
+      
+      @media screen and (min-width: 800px) {
+        grid-area: 1 / 1 / 2 / 2;
+       }
+    }
+    
+    .imgRender {
+      width: 100%;
+    }
   }
 }
 
-.rendering {
-  margin: 0 auto;
-  object-fit: contain;
-  
-  @media screen and (min-width: 800px) {
-    grid-area: 1 / 1 / 2 / 2;
-   }
-}
-
-.imgRender {
-  width: 100%;
+.form-section {
+  background-color: black;
+  color: whitesmoke;
 }
 
 .ad {
@@ -82,13 +87,27 @@ button {
   font-size: 2em;
   cursor: crosshair;
   width: 100%;
-  margin: 0 auto;
   max-width: 950px;
+  min-height: 125px;
+  margin: 0 auto;
+  margin-top: 2em;
   
+  .desktop {
+    @media screen and (max-width: 375px) {
+      display: none;
+    }
+  }
+
+  .mobile {
+    @media screen and (min-width: 375px) {
+      display: none;
+    }
+  }
+
   .static {
     background-image: url("../images/static.png");
     background-position: top-left;
-    animation: static-gitter .1s infinite;
+    animation: static-jitter .1s infinite;
   }
   
   .flicker {
@@ -109,14 +128,8 @@ button {
     100% { opacity: .40; }
   }
   
-  @keyframes static-gitter {
+  @keyframes static-jitter {
     50% {background-position: center;}
-  }
-
-  img {
-    @media screen and (min-width: 800px) {
-      height: 220px;
-    }
   }
 }
 
@@ -125,7 +138,8 @@ button {
 }
 
 .ks-link {
-  margin: .5em 0 .5em 0; 
+  // margin: .5em 0 .5em 0;
+  font-size: 2em; 
 }
 
 a:hover {

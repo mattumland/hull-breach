@@ -12,23 +12,24 @@
   text-align: center;
 }
 
-h1 {
+.hodderH1 {
   margin: 5px 0 10px 0;
 }
 
-h2 {
+.hodderH2 {
   font-size: 1.5em;
   margin: 0 0 10px 0;
 }
 
-h4 {
+.hodderH3 {
+  margin: 1em auto 1em auto;
+  max-width: 1000px;
+
+.hodderH4 {
   font-size: 1.25em;
   margin: 0;
 }
 
-.subhead {
-  margin: 1em auto 1em auto;
-  max-width: 1000px;
 }
 
 .top-section {
@@ -44,6 +45,7 @@ h4 {
   border: solid 3px hsl(175, 19%, 13%);
   margin: 0 auto;
   padding: 5px;
+  min-width: 800px;
   max-width: 60%;
   text-align: left;
   overflow-wrap: break-word;
@@ -56,7 +58,6 @@ h4 {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   background-color: #FFFFFF25 
-  // max-width: 100%;
 }
 
 .upper-left {
