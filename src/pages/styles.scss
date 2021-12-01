@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url("https://use.typekit.net/iok0apy.css");
 
+p {
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 
 h2 {
   font-size: 3em;
@@ -27,7 +34,6 @@ main {
   font-family: 'ff-good-web-pro', sans-serif;
 }
 
-  
 .banner {
   background-color: black;
 }
@@ -41,35 +47,42 @@ main {
 
   .feature {
   margin: 2em auto;
-
-    @media screen and (min-width: 800px) {
+  max-width: 1200px;
+  
+  @media screen and (min-width: 1000px) {
+      padding: 2em;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: 1fr;
       grid-column-gap: 10px;
+  }
+    
+  .description {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    
+    @media screen and (min-width: 400px) {
+      font-size: 1.5em;
+      line-height: 1.5em;
     }
     
-    .description {
-      font-size: 1em;
-      @media screen and (min-width: 800px) {
-        font-size: 1.75em;
-        text-align: left;
-        margin: 0 .5em 0 .5em;
-        grid-area: 1 / 2 / 2 / 3;
-      }
+    @media screen and (min-width: 1000px) {
+      object-position: center top;
+      line-height: 1.75em;
+      font-size: 1.75em;
+      text-align: left;
+      margin: 0 .5em;
+      grid-area: 1 / 2 / 2 / 3;
     }
+  }
 
     .rendering {
       margin: 0 auto;
-      object-fit: contain;
+      object-fit: cover;
       
       @media screen and (min-width: 800px) {
         grid-area: 1 / 1 / 2 / 2;
        }
-    }
-    
-    .imgRender {
-      width: 100%;
     }
   }
 }
@@ -77,6 +90,20 @@ main {
 .form-section {
   background-color: black;
   color: whitesmoke;
+  justify-content: space-around;
+  padding-top: 3em;
+  max-width: 800px;
+
+  @media screen and (min-width: 800px) {
+    display: flex;
+    margin: 0 auto;
+  }
+
+.link {
+  font-size: 2em; 
+  margin: 1em auto;
+}
+
 }
 
 .ad {
@@ -135,11 +162,6 @@ main {
 
 .hidden {
   display: none;
-}
-
-.ks-link {
-  // margin: .5em 0 .5em 0;
-  font-size: 2em; 
 }
 
 a:hover {
