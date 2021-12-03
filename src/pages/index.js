@@ -17,23 +17,51 @@ class IndexPage extends React.Component {
   render() {
     return (
       <main>
-        <section className="banner">
-          <title>HULL BREACH</title>
+        <title>HULL BREACH</title>
+        <section className="banner-section">
+          {/* <StaticImage 
+            src="../images/hullbreach-cover-13000px300dpi-20211027.jpeg" 
+            alt="Debris being pulled through a hole in the hull of a ship" 
+            placeholder="blurred"  
+            className="banner-image"
+          /> */}
           <h1 className="hidden">HULL BREACH</h1>
-          <a className="banner" href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1">
+          <StaticImage 
+              src="../images/hull-breach-title-01.png" 
+              alt="Hull Breach" 
+              placeholder="blurred" 
+              className="banner-title" 
+          />
+          <StaticImage 
+              src="../images/hb-subhead-01.png" 
+              alt="A sci-fi horror ttrpg anthology" 
+              placeholder="blurred" 
+              className="banner-subtitle" 
+          />
+          <div className="banner-logo">
             <StaticImage 
-              src="../images/HB_mockup_transparent.png" 
-              alt="Rendering of the Hull Breach book" 
+              src="../images/mosh-logo.png" 
+              alt="Logo for the Mothership Sci-Fi Horror RPG" 
               placeholder="blurred"  
+              className="logo"
             />
-          </a>
-          <h2>Sci-fi horror anthology for Mothership.</h2>
+          </div>
+          <aside className="banner-links">
+            <div>
+              <a href="https://ianyusem.substack.com/p/anodyne-direct-00-boot-sequence?showWelcome=true">
+                <p className="link-text">Join the newsletter</p>
+              </a>
+              <a href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1">
+                <p className="link-text" >Follow the Kickstarter</p>
+              </a>        
+            </div>
+          </aside>
         </section>
         <section className="content-section">
           <article className="feature">
             <div className="imageContainer">
               <StaticImage 
-                src="../images/mock-up.png" 
+                src="../images/HardcoverUVTestFront.png" 
                 alt="Rendering of the Hull Breach book" 
                 placeholder="dominantColor"  
                 className="rendering"
@@ -44,40 +72,48 @@ class IndexPage extends React.Component {
             </div>
           </article> 
         </section>
-        <section className="form-section">
-          <a href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1">
-            <h3 className="link">Follow the Kickstarter</h3>
-          </a>
-          <a href="https://ianyusem.substack.com/p/anodyne-direct-00-boot-sequence?showWelcome=true">
-            <h3 className="link">Join the newsletter</h3>
-          </a>
+        <section className="spread-section">
+          <StaticImage 
+            src="../images/open_mockup1.png" 
+            alt="Rendering of spread from the Hull Breach book" 
+            placeholder="dominantColor"  
+            className="rendering"
+          />
+          <StaticImage 
+            src="../images/open_mockup2.png" 
+            alt="Rendering of spread from the Hull Breach book" 
+            placeholder="dominantColor"  
+            className="rendering"
+          />
         </section>
-
-        <button className="ad" onClick= { this.toggleAd }>
-          {!this.state.adClick &&  
-            <div className="static">         
-              <StaticImage 
-                src="../images/banner.png"  
-                alt="AD - click here if you or a loved one where injured in the Hodder Forest Reserve Habitat accident."
-                className="flicker desktop"
-              />
-            </div>
-          }
-          {!this.state.adClick &&  
-            <div className="static">         
-              <StaticImage 
-                src="../images/arg-banner_mobile.png"  
-                alt="AD - click here if you or a loved one where injured in the Hodder Forest Reserve Habitat accident."
-                className="flicker mobile"
-              />
-            </div>
-          }
-          {this.state.adClick &&           
-            <img 
-            src=""  
-            alt=".../hodderreserve"
-          />}
-        </button>
+        <section className="form-section">
+          <button className="ad" onClick= { this.toggleAd }>
+            {!this.state.adClick &&  
+              <div className="static">         
+                <StaticImage 
+                  src="../images/banner.png"  
+                  alt="AD - click here if you or a loved one where injured in the Hodder Forest Reserve Habitat accident."
+                  className="flicker desktop"
+                />
+              </div>
+            }
+            {!this.state.adClick &&  
+              <div className="static">         
+                <StaticImage 
+                  src="../images/arg-banner_mobile.png"  
+                  alt="AD - click here if you or a loved one where injured in the Hodder Forest Reserve Habitat accident."
+                  className="flicker mobile"
+                />
+              </div>
+            }
+            {this.state.adClick &&           
+              <img
+              className="broken-link"
+              src=""  
+              alt=".../hodderreserve"
+            />}
+          </button>
+        </section>
       </main>
     );
   }
