@@ -212,18 +212,13 @@ main {
 
   .static {
     background-image: url("../images/static.png");
-    background-color: red;
     background-position: top-left;
-    // animation: static-jitter .1s infinite;
+    animation: static-jitter .1s infinite;
   }
   
   @keyframes static-jitter {
     50% {background-position: center;}
   }
-}
-
-.hidden {
-  display: none;
 }
 
 a:hover {
