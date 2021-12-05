@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url("https://use.typekit.net/iok0apy.css");
-// @import "styles.scss";
 
 .site-background {
   margin: 0 auto;
@@ -24,12 +22,11 @@
 .hodderH3 {
   margin: 1em auto 1em auto;
   max-width: 1000px;
+}
 
 .hodderH4 {
   font-size: 1.25em;
   margin: 0;
-}
-
 }
 
 .top-section {
@@ -89,24 +86,6 @@
 
 @keyframes static-gitter {
   50% {background-position: center;}
-}
-
-.flicker {
-  -webkit-animation: fadeinout 3s linear alternate;
-  animation: fadeinout 3s linear alternate;
-  animation-iteration-count: infinite;
-}
-  
-@-webkit-keyframes fadeinout {
-  0% { opacity: 1; }
-  98% { opacity: .97; }
-  100% { opacity: 0; } 
-}
-  
-@keyframes fadeinout {
-  0% { opacity: 1; }
-  98% { opacity: .97; }
-  100% { opacity: 0; }
 }
 
 .form-area {
