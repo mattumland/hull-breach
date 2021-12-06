@@ -10,13 +10,10 @@
   text-align: center;
 }
 
-.hodderH1 {
-  margin: 5px 0 10px 0;
-}
-
-.hodderH2 {
-  font-size: 1.5em;
-  margin: 0 0 10px 0;
+.hodder-logo {
+  width: 100%;
+  margin: 0 auto;
+  object-fit: contain;
 }
 
 .hodderH3 {
@@ -75,13 +72,30 @@
 
 .bottom-right {
   grid-area: 2 / 2 / 3 / 3; 
-  padding: 1em;
+  min-width: 1200px;
 }
 
 .static {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   background-image: url("../images/static.png");
   background-position: top-left;
   animation: static-gitter 1s infinite;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .handshake {
+    grid-area: 1 / 1 / 2 / 2; 
+    z-index: 0; 
+  }
+
+  .incident-password-2 {
+    grid-area: 1 / 1 / 2 / 2; 
+  }
+
 }
 
 @keyframes static-gitter {
@@ -94,4 +108,10 @@
   flex-direction: column;
   text-align: left;
   width: 70%;
+
+  .claim-message {
+    background-color: black;
+    color: red;
+    line-height: 1.5em;
+  }
 }
