@@ -37,6 +37,7 @@ main {
   grid-row: 1;
   grid-column: 1;
   object-fit: cover;
+  height: 100vh;
 }
 
 .banner-content {
@@ -148,7 +149,7 @@ main {
 
     .description-link {
       color: black;
-      font-size: 1em; 
+      font-size: 1.25em; 
       margin-top: 1em;
     }
   }

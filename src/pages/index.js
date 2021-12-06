@@ -22,7 +22,7 @@ class IndexPage extends React.Component {
       <>
         <Helmet>
           <title>HULL BREACH</title>
-          <meta name="icon" type="image/png" href={ icon } sizes="16x16" />
+          <link rel="icon" type="image/png" href={ icon } sizes="16x16" />
           <html lang="en" amp />
         </Helmet>
         <main>
@@ -78,7 +78,7 @@ class IndexPage extends React.Component {
               />
               <div className="description">
                 <p><b>Hull Breach</b> is a massive adventure and supplement anthology for the <b>Mothership Sci-Fi Horror RPG</b>, brought to you by a diverse community of 3rd party Mothership authors, designers and artists.</p><br></br>
-                <p><i>"If you've just learned about Mothership, Hull Breach is the perfect book for you."</i><br></br>- Sean McCoy, creator of Mothership</p><br></br>
+                <p><i>"If you've just learned about Mothership, Hull Breach is the perfect book for you."</i> - Sean McCoy, creator of Mothership</p><br></br>
                 <p><b>This 200+ page hardcover book </b>features all new Mothership content fully compatible with the 1st edition rules, including:</p>
                 <ul>
                   <li>12+ terrifying adventures for one shot or campaign play.</li>
@@ -89,7 +89,7 @@ class IndexPage extends React.Component {
                   <li>Over 50 original illustrations from an all-star roster of fan favorite and first time Mothership artists.</li>
                 </ul>
                 <a href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1" target="_blank" rel="noopener noreferrer">
-                  <p className="description-link">Learn more at Kickstarter</p>
+                  <p className="description-link">Learn more on Kickstarter</p>
                 </a>  
               </div>
             </article> 
