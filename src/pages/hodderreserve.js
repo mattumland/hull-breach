@@ -4,7 +4,7 @@ import "normalize.css"
 import "./hodder.scss"
 import { Helmet } from "react-helmet"
 import hodderIcon from "../images/hodderIcon-01.png"
-import AWOKEN_AI_DO_NOT_OPEN from "../downloads/download.jpeg"
+import download from "../downloads/download.jpeg"
 
 
 class hodderreserve extends React.Component {
@@ -51,6 +51,7 @@ class hodderreserve extends React.Component {
       <>
         <Helmet>
           <title>Hodder Forest Reserve Habitat</title>
+          <link rel="icon" type="image/png" href={ hodderIcon } sizes="16x16" />
           <html lang="en" amp />
         </Helmet>
         <div className="site-background">
@@ -131,7 +132,7 @@ class hodderreserve extends React.Component {
                       <div>
                         <h3>HELLO {`${this.state.username}`}. WE APOLOGIZE FOR THE INCONVENIENCE. </h3> 
                         <button>
-                          <a href={download} download>CLICK HERE TO CLAIM YOUR REMEDIATION PACKAGE</a>{` `}
+                          <a href={download} download="BY_OPENING_YOU_AGREE_TO_ALL_OUR_TERMS">CLICK HERE TO CLAIM YOUR REMEDIATION PACKAGE</a>{` `}
                         </button>
                       </div>
                     }
