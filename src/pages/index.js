@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import "./styles.scss"
 import "normalize.css"
 import { Helmet } from "react-helmet"
+import icon from "../images/gatsby-icon.png"
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -21,7 +22,7 @@ class IndexPage extends React.Component {
       <>
         <Helmet>
           <title>HULL BREACH</title>
-          <link rel="icon" type="image/png" href="../images/gatsby-icon.png" sizes="16x16" />
+          <meta name="icon" type="image/png" href={ icon } sizes="16x16" />
           <html lang="en" amp />
         </Helmet>
         <main>
@@ -58,10 +59,10 @@ class IndexPage extends React.Component {
                 </div>
               </div>
               <div className="banner-links">
-                <a href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1">
+                <a href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1" target="_blank" rel="noopener noreferrer">
                   <p className="link-text" >Follow the Kickstarter</p>
                 </a>        
-                <a href="https://ianyusem.substack.com/p/anodyne-direct-00-boot-sequence?showWelcome=true">
+                <a href="https://ianyusem.substack.com/p/anodyne-direct-00-boot-sequence?showWelcome=true" target="_blank" rel="noopener noreferrer">
                   <p className="link-text">Join the newsletter</p>
                 </a>
               </div>
@@ -70,14 +71,24 @@ class IndexPage extends React.Component {
           <section className="content-section">
             <article className="feature">
               <StaticImage 
-                src="../images/HardcoverUVTestFront.png" 
+                src="../images/HardcoverFront.png" 
                 alt="Artist rendering of Hull Breach book cover" 
                 placeholder="dominantColor"  
                 className="rendering"
               />
               <div className="description">
-                <p>HULL BREACH is the first hardcover book for the Mothership Sci-Fi Horror RPG. This massive collaboration between 20 independent authors packs dozens of new scenarios, essays, bestiaries, system-hacks, toolkits, and more into over 200 beautifully designed pages.</p>
-                <a href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1">
+                <p><b>Hull Breach</b> is a massive adventure and supplement anthology for the <b>Mothership Sci-Fi Horror RPG</b>, brought to you by a diverse community of 3rd party Mothership authors, designers and artists.</p><br></br>
+                <p><i>"If you've just learned about Mothership, Hull Breach is the perfect book for you."</i><br></br>- Sean McCoy, creator of Mothership</p><br></br>
+                <p><b>This 200+ page hardcover book </b>features all new Mothership content fully compatible with the 1st edition rules, including:</p>
+                <ul>
+                  <li>12+ terrifying adventures for one shot or campaign play.</li>
+                  <li>Dozens of hostile alien entities and human adversaries.</li>
+                  <li>Warden Advice and articles to level up your game.</li>
+                  <li>Generators, toolkits and toys galore.</li>
+                  <li>New ways to play Mothership with expanded mechanics, alternate campaign frames and system hacks.</li>
+                  <li>Over 50 original illustrations from an all-star roster of fan favorite and first time Mothership artists.</li>
+                </ul>
+                <a href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1" target="_blank" rel="noopener noreferrer">
                   <p className="description-link">Learn more at Kickstarter</p>
                 </a>  
               </div>
@@ -88,13 +99,11 @@ class IndexPage extends React.Component {
               src="../images/open_mockup1.png" 
               alt="Artist rendering of interior pages of Xeiram article from Hull Breach" 
               placeholder="dominantColor"  
-              className="rendering"
             />
             <StaticImage 
               src="../images/open_mockup2.png" 
               alt="Artist rendering of interior pages of Most Wanted article from Hull Breach" 
               placeholder="dominantColor"  
-              className="rendering"
             />
           </section>
           <section className="form-section">
