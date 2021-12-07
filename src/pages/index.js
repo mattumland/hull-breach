@@ -63,7 +63,7 @@ class IndexPage extends React.Component {
                   <p className="link-text" >Follow the Kickstarter</p>
                 </a>        
                 <a href="https://ianyusem.substack.com/p/anodyne-direct-00-boot-sequence?showWelcome=true" target="_blank" rel="noopener noreferrer">
-                  <p className="link-text">Join the newsletter</p>
+                  <p className="link-text">Join the Newsletter</p>
                 </a>
               </div>
             </div>
@@ -96,13 +96,18 @@ class IndexPage extends React.Component {
           </section>
           <section className="spread-section">
             <StaticImage 
-              src="../images/open_mockup1.png" 
+              src="../images/Xeiram_ForWebsite.png" 
               alt="Artist rendering of interior pages of Xeiram article from Hull Breach" 
               placeholder="dominantColor"  
             />
             <StaticImage 
-              src="../images/open_mockup2.png" 
+              src="../images/MostWantedForWebsite.png" 
               alt="Artist rendering of interior pages of Most Wanted article from Hull Breach" 
+              placeholder="dominantColor"  
+            />
+            <StaticImage 
+              src="../images/ISMM_4_Website.png" 
+              alt="Artist rendering of interior pages of ISMM article from Hull Breach" 
               placeholder="dominantColor"  
             />
           </section>
