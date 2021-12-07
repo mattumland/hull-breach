@@ -5,7 +5,7 @@ import "./hodder.scss"
 import { Helmet } from "react-helmet"
 import hodderIcon from "../images/hodderIcon-01.png"
 import download1 from "../downloads/hull-breach_wallpaper_1920x1080.png"
-import download2 from "../downloads/Hodder_Forest_Reserve_1MCR_Voucher.pdf"
+import download2 from "../downloads/Hodder_Forest_Reserve_1MCR_Voucher_B.pdf"
 class hodderreserve extends React.Component {
   constructor() {
     super();

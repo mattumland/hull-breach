@@ -89,7 +89,7 @@ class IndexPage extends React.Component {
                   <li>Over 50 original illustrations from an all-star roster of fan favorite and first time Mothership artists.</li>
                 </ul>
                 <a href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1" target="_blank" rel="noopener noreferrer">
-                  <p className="description-link">Learn more on Kickstarter</p>
+                  <p className="description-link">Launching on Kickstarter January 4th, 2022</p>
                 </a>  
               </div>
             </article> 
