@@ -119,6 +119,7 @@ class IndexPage extends React.Component {
                     src="../images/banner.png"  
                     alt="AD - click here if you or a loved one where injured in the Hodder Forest Reserve Habitat accident."
                     className="desktop"
+                    placeholder="blurred"
                   />
                 </div>
               }
@@ -128,6 +129,7 @@ class IndexPage extends React.Component {
                     src="../images/arg-banner_mobile.png"  
                     alt="AD - click here if you or a loved one where injured in the Hodder Forest Reserve Habitat accident."
                     className="mobile"
+                    placeholder="blurred"
                   />
                 </div>
               }
