@@ -4,9 +4,8 @@ import "normalize.css"
 import "./hodder.scss"
 import { Helmet } from "react-helmet"
 import hodderIcon from "../images/hodderIcon-01.png"
-import download from "../downloads/download.jpeg"
-
-
+import download1 from "../downloads/hull-breach_wallpaper_1920x1080.png"
+import download2 from "../downloads/hull-breach_wallpaper_1920x1080.png"
 class hodderreserve extends React.Component {
   constructor() {
     super();
@@ -132,7 +131,10 @@ class hodderreserve extends React.Component {
                       <div>
                         <h3>HELLO {`${this.state.username}`}. WE APOLOGIZE FOR THE INCONVENIENCE. </h3> 
                         <button>
-                          <a href={download} download="BY_OPENING_YOU_AGREE_TO_ALL_OUR_TERMS">CLICK HERE TO CLAIM YOUR REMEDIATION PACKAGE</a>{` `}
+                          <a href={download1} download="BY_OPENING_YOU_AGREE_TO_ALL_OUR_TERMS">CLICK HERE TO CLAIM YOUR REMEDIATION PACKAGE</a>{` `}
+                        </button>
+                        <button className="special-reward">
+                          <a href={download2} download="BY_OPENING_YOU_AGREE_TO_ALL_OUR_TERMS">CONGRATS {`${this.state.username}`} YOU HAVE BEEN SELECTED FOR AN ADDITIONAL REMEDIATION AGREEMENT. CLICK TO LEARN MORE.</a>{` `}
                         </button>
                       </div>
                     }
