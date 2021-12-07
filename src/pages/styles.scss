@@ -205,12 +205,14 @@ main {
   opacity: .9;
 
   .desktop {
+    width: 100%;
     @media screen and (max-width: 375px) {
       display: none;
     }
   }
 
   .mobile {
+    width: 100%;
     @media screen and (min-width: 375px) {
       display: none;
     }
