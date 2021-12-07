@@ -4,8 +4,6 @@ import "./styles.scss"
 import "normalize.css"
 import { Helmet } from "react-helmet"
 import icon from "../images/gatsby-icon.png"
-import mobileBanner from "../images/arg-banner_mobile.png"
-import desktopBanner from "../images/banner.png"
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -117,19 +115,21 @@ class IndexPage extends React.Component {
             <button className="ad" onClick= { this.toggleAd }>
               {!this.state.adClick &&  
                 <div className="static">         
-                  <img 
-                    src={ desktopBanner } 
+                  <StaticImage 
+                    src="../images/banner.png"  
                     alt="AD - click here if you or a loved one where injured in the Hodder Forest Reserve Habitat accident."
                     className="desktop"
+                    placeholder="blurred"
                   />
                 </div>
               }
               {!this.state.adClick &&  
-                <div className="static">        
-                  <img 
-                    src={ mobileBanner } 
+                <div className="static">         
+                  <StaticImage 
+                    src="../images/arg-banner_mobile.png"  
                     alt="AD - click here if you or a loved one where injured in the Hodder Forest Reserve Habitat accident."
                     className="mobile"
+                    placeholder="blurred"
                   />
                 </div>
               }
