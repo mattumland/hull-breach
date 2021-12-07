@@ -206,14 +206,14 @@ main {
 
   .desktop {
     width: 100%;
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 376px) {
       display: none;
     }
   }
 
   .mobile {
     width: 100%;
-    @media screen and (min-width: 375px) {
+    @media screen and (min-width: 377px) {
       display: none;
     }
   }
