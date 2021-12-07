@@ -5,7 +5,7 @@ import "./hodder.scss"
 import { Helmet } from "react-helmet"
 import hodderIcon from "../images/hodderIcon-01.png"
 import download1 from "../downloads/hull-breach_wallpaper_1920x1080.png"
-import download2 from "../downloads/hull-breach_wallpaper_1920x1080.png"
+import download2 from "../downloads/Hodder_Forest_Reserve_1MCR_Voucher.pdf"
 class hodderreserve extends React.Component {
   constructor() {
     super();
@@ -18,7 +18,7 @@ class hodderreserve extends React.Component {
 
   secretMessage = () => {
     alert('incident password 1 logged')
-    console.log('IP-1: giveme____ ____s')
+    console.log('IP-1: giveme________s')
   }
 
   wrongOne = () => {
@@ -97,7 +97,7 @@ class hodderreserve extends React.Component {
                       placeholder="blurred"  
                       className="handshake"
                     />
-                    <h3 className="incident-password-2">g___ __yourhands</h3>
+                    <h3 className="incident-password-2">g_____yourhands</h3>
                   </button>
                 </div>
                 <div className="bottom-right">
@@ -134,7 +134,7 @@ class hodderreserve extends React.Component {
                           <a href={download1} download="BY_OPENING_YOU_AGREE_TO_ALL_OUR_TERMS">CLICK HERE TO CLAIM YOUR REMEDIATION PACKAGE</a>{` `}
                         </button>
                         <button className="special-reward">
-                          <a href={download2} download="BY_OPENING_YOU_AGREE_TO_ALL_OUR_TERMS">CONGRATS {`${this.state.username}`} YOU HAVE BEEN SELECTED FOR AN ADDITIONAL REMEDIATION AGREEMENT. CLICK TO LEARN MORE.</a>{` `}
+                          <a href={download2} download="THIS_VOUCHER_DOES_NOT_CONSTITUTE_AN_ADMISSION_OF_CUPABILITY">CONGRATS {`${this.state.username}`} YOU HAVE BEEN SELECTED FOR AN ADDITIONAL REMEDIATION AGREEMENT. CLICK TO LEARN MORE.</a>{` `}
                         </button>
                       </div>
                     }
