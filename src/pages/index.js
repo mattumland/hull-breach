@@ -66,9 +66,9 @@ class IndexPage extends React.Component {
                 <a href="https://ianyusem.substack.com/p/anodyne-direct-00-boot-sequence?showWelcome=true" target="_blank" rel="noopener noreferrer">
                   <p className="link-text">Join the Newsletter</p>
                 </a>
-                {/* <Link to="/press/">
+                <Link to="/press/">
                   <p className="link-text">Press Release</p>
-                </Link> */}
+                </Link>
               </div>
             </div>
           </section>
