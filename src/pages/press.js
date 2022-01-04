@@ -23,13 +23,13 @@ export default function Component () {
       <article className="press-release">
         <h2 className="date-line">Press release January 4 2021</h2>
         <h2>
-          Hull Breach: Mothership sci-fi horror anthology funds in 6 minutes , unlocks _____ stretch goals in ___.
+          Hull Breach: Mothership sci-fi horror anthology funds in 6 minutes , unlocks 2 stretch goals in under 80 minutes.
         </h2>
         <h3>
-          Hull Breach, the first release from Anodyne Printware smashed through its funding goal and first batch of stretch goals in under _____. 
+          Hull Breach, the first release from Anodyne Printware smashed through its funding goal and first batch of stretch goals in under 80 minutes. 
         </h3>
         <p>
-          The funding goal of $10,000 was met within ______, an excellent start to the campaign for the sci-fi horror RPG anthology, which will be running through February 3rd, 2022. Hull Breach emerged from the community of creators surrounding the indie-darling turned Kickstarter sensation, the Mothership Sci-Fi Horror RPG, and has seen enthusiastic support from fans of the game prior to its launch today.
+          The funding goal of $10,000 was met within 6 minutes of launch, an excellent start to the campaign for the sci-fi horror RPG anthology, which will be running through February 3rd, 2022. Hull Breach emerged from the community of creators surrounding the indie-darling turned Kickstarter sensation, the Mothership Sci-Fi Horror RPG, and has seen enthusiastic support from fans of the game prior to its launch today.
         </p>
         <br></br>
         <p>
@@ -45,7 +45,7 @@ export default function Component () {
         </p>
         <br></br>
         <p>
-          With ____ days still remaining and already ____ funds raised, Hull Breach is off to a strong start. 
+          With 30 days still remaining and already $70,000 raised, Hull Breach is off to a strong start. 
         </p>
       </article>
     </div>
