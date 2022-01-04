@@ -1,5 +1,8 @@
 @import url("https://use.typekit.net/iok0apy.css");
 
+html {
+  background-color: black;
+}
 
 p {
   display: block;
@@ -26,7 +29,6 @@ button {
 main {
   display: flex;
   flex-direction: column;
-  background-color: black;
   margin: 0 auto;
   width: 100%;
   font-family: 'ff-good-web-pro', sans-serif;
@@ -86,7 +88,6 @@ main {
   min-height: 200px;
   max-width: 95%;
   margin: 0 auto;
-  // margin-top: 3em;
     
   @media screen and (min-width: 833px) {
     margin: 0;
