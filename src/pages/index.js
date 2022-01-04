@@ -60,7 +60,7 @@ class IndexPage extends React.Component {
                 </div>
               </div>
               <div className="banner-links">
-                <a href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1?ref=avaier" target="_blank" rel="noopener noreferrer">
                   <p className="link-text" >Now on Kickstarter</p>
                 </a>        
                 <a href="https://ianyusem.substack.com/p/anodyne-direct-00-boot-sequence?showWelcome=true" target="_blank" rel="noopener noreferrer">
@@ -92,7 +92,7 @@ class IndexPage extends React.Component {
                   <li>New ways to play Mothership with expanded mechanics, alternate campaign frames and system hacks.</li>
                   <li>Over 50 original illustrations from an all-star roster of fan favorite and first time Mothership artists.</li>
                 </ul>
-                <a href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1?ref=avaier" target="_blank" rel="noopener noreferrer">
                   <p className="description-link">Live now on Kickstarter</p>
                 </a>  
               </div>

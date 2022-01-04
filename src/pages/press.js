@@ -16,14 +16,14 @@ export default function Component () {
             className="press-banner-link-image"
           />
         </Link>
-        <a className="press-banner-link" href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1" target="_blank" rel="noopener noreferrer">
+        <a className="press-banner-link" href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1?ref=avaier" target="_blank" rel="noopener noreferrer">
           <p className="press-link-text">Live on Kickstarter</p>
         </a> 
       </header>
       <article className="press-release">
         <h2 className="date-line">Press release January 4 2021</h2>
         <h2>
-          Hull Breach: Mothership sci-fi horror anthology funds in ___ , unlocks stretch goals in ___.
+          Hull Breach: Mothership sci-fi horror anthology funds in 6 minutes , unlocks _____ stretch goals in ___.
         </h2>
         <h3>
           Hull Breach, the first release from Anodyne Printware smashed through its funding goal and first batch of stretch goals in under _____. 
