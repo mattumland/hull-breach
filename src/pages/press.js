@@ -1,25 +1,14 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
+import AltHeader from "./altheader.js"
 import "normalize.css"
 import "./press.scss"
 
 export default function Component () {
   return (
     <div className="press-page">
-      <header className="press-header">
-        <Link className="press-banner-link" to="/">
-          <StaticImage 
-            src="../images/hull-breach_press_page-02.png" 
-            alt="Hull Breach" 
-            placeholder="dominantColor"  
-            className="press-banner-link-image"
-          />
-        </Link>
-        <a className="press-banner-link" href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1?ref=avaier" target="_blank" rel="noopener noreferrer">
-          <p className="press-link-text">Live on Kickstarter</p>
-        </a> 
-      </header>
+      <AltHeader></AltHeader>
       <article className="press-release">
         <h2 className="date-line">Press release January 4 2021</h2>
         <h2>

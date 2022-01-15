@@ -69,6 +69,9 @@ class IndexPage extends React.Component {
                 <Link to="/press/">
                   <p className="link-text">Press Release</p>
                 </Link>
+                <Link to="/bravoteam">
+                  <p className="link-text">Bravo Team</p>
+                </Link>
               </div>
             </div>
           </section>
