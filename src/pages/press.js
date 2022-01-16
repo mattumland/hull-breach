@@ -1,6 +1,4 @@
 import React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import { Link } from "gatsby"
 import AltHeader from "./altheader.js"
 import "normalize.css"
 import "./press.scss"
