@@ -19,12 +19,12 @@ export const bravo_images = [
 ]
 
 export const alt_tags = [
-  "1 Bravo team is cool and we love them",
-  "2 Bravo team is cool and we love them",
-  "3 Bravo team is cool and we love them",
-  "4 Bravo team is cool and we love them",
-  "5 Bravo team is cool and we love them",
-  "6 Bravo team is cool and we love them",
-  "7 Bravo team is cool and we love them",
-  "8 Bravo team is cool and we love them"
+  ' "...indicates the explosion originated inside the vessel, over." ' ,
+  '"Multiple bogeys on the motion sensor!"',
+  '"What happened to Cruz?"',
+  '"Stop struggling, it can sense our movement!"',
+  '"We bring an offering of bone and flesh."',
+  '"I`m getting life signs from Cruz on my HUD! That can`t be possible!"',
+  '???',
+  '???'
 ]

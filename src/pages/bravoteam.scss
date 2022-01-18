@@ -20,6 +20,10 @@
     color: white;
     width: 25%;
     padding: .5em;
+
+    &:hover {
+      cursor: crosshair;
+    }
     
     @media screen and (min-width: 450px) {
       width: 12.5%;
@@ -35,6 +39,7 @@
 
 .bravo-subtitle {
   margin: 1em auto;
+  padding: .5em;
   color: white;
   text-align: center;
 }
