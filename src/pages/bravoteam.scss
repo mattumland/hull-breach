@@ -1,0 +1,55 @@
+@import url("https://use.typekit.net/iok0apy.css");
+
+.bravo-page {
+  font-family: 'ff-good-web-pro', sans-serif;
+}
+
+.chapter-select {
+  border-bottom: solid white 2px;
+}
+
+.chapter-buttons {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 50em;
+
+  button {
+    background-color: black;
+    color: white;
+    width: 25%;
+    padding: .5em;
+
+    &:hover {
+      cursor: crosshair;
+    }
+    
+    @media screen and (min-width: 450px) {
+      width: 12.5%;
+      padding: 1em;
+    }
+  }
+
+  .active {
+    background-color: white;
+    color: black;
+  }
+}
+
+.bravo-subtitle {
+  margin: 1em auto;
+  padding: .5em;
+  color: white;
+  text-align: center;
+}
+
+.bravo-image-container {
+  margin: 0 auto;
+  width: MAX(55%, 26em);
+  max-width: 100vw;
+
+  .bravo-image {
+    width: 100%
+  }
+}
