@@ -25,6 +25,6 @@ export const alt_tags = [
   '"Stop struggling, it can sense our movement!"',
   '"We bring an offering of bone and flesh."',
   '"I`m getting life signs from Cruz on my HUD! That can`t be possible!"',
-  '???',
+  '"You will see what I have seen."',
   '???'
 ]
