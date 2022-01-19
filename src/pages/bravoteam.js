@@ -45,6 +45,10 @@ class BravoTeam extends React.Component {
               className={this.state.currentChapter === 6 ? 'active' : 'inactive'}
               onClick={ e=> this.updateImage(6)}
             >6</button>
+            <button 
+              className={this.state.currentChapter === 7 ? 'active' : 'inactive'}
+              onClick={ e=> this.updateImage(7)}
+            >7</button>
           </div>
         </nav>
         <section className="bravo-list">
