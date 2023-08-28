@@ -8,32 +8,27 @@ export default function Component () {
     <div className="press-page">
       <AltHeader></AltHeader>
       <article className="press-release">
-        <h2 className="date-line">Press release January 4 2021</h2>
+        <h2 className="date-line">Press release August 29 2023</h2>
         <h2>
-          Hull Breach: Mothership sci-fi horror anthology funds in 6 minutes , unlocks 2 stretch goals in under 80 minutes.
+          Smash Success Sci-fi TTRPG Anthology Hull Breach Vol. 1 Releasing Now!
         </h2>
-        <h3>
-          Hull Breach, the first release from Anodyne Printware smashed through its funding goal and first batch of stretch goals in under 80 minutes. 
-        </h3>
         <p>
-          The funding goal of $10,000 was met within 6 minutes of launch, an excellent start to the campaign for the sci-fi horror RPG anthology, which will be running through February 3rd, 2022. Hull Breach emerged from the community of creators surrounding the indie-darling turned Kickstarter sensation, the Mothership Sci-Fi Horror RPG, and has seen enthusiastic support from fans of the game prior to its launch today.
+          After crowdfunding on Kickstarter with a funding total of $480,000 in 2022, the highly anticipated sci-fi anthology Hull Breach Vol. 1 releases to the public on August 29th!        </p>
+        <br></br>
+        <p>
+          Hull Breach Vol. 1 from publisher Anodyne Printware is a massive adventure and supplement anthology compatible with the new Mothership Sci-Fi Horror RPG 1st Edition. This eclectic hoard of all-new sci-fi scenarios, GM tools, monsters and more doubles as a complete sandbox campaign setting: effortlessly weaving punchy one shots into multi-session epics.
         </p>
         <br></br>
         <p>
-          The core of the project is a 200+ page hardcover anthology book featuring new content from 20 independent authors ($25 PDF, $45 physical). It includes over a dozen new and game-ready sci-fi horror adventures, plus a bounty of supplementary material to expand the Mothership system like extraterrestrial horrors, equipment and weapons, GM toolkits, generators, mechanics and more—all fully compatible with Mothership’s new 1st edition rules. 
+          <b>Hull Breach Vol. 1 launches at retail on Tuesday, August 29th at 10 AM EDT (UTC-4).</b>
         </p>
         <br></br>
         <p>
-          The campaign also offers many other rewards for backers. Backers of the “Executive Suite” tier ($85) will also receive an entire additional book called Breach of Contract. This “legal horror” companion book features deviously worded, ruthlessly brutal contracts for all manner of corporate gigs that Mothership players might encounter. The wire-bound book will have tear off pages for Wardens to use as in-game props at the table. Other rewards in the tier include a poster-sized sector map, in-universe union id card prop and a collection of stickers useful for modifying character sheets, ship sheets, maps or book covers. 
+          What started as a modest Mothership fan-project grew into a 228-page hardcover behemoth, with dozens of incredible international contributors from the 3rd party community pouring their souls into this love letter to sci-fi horror. 
         </p>
         <br></br>
         <p>
-          The ultimate collector’s option, the “Total Acquisition” tier ($125) offers all other rewards from the campaign plus Anodyne Printware’s complete back catalogue of Mothership adventures (7 in total) fully updated to the new 1e rules at a heavily discounted bundle price. 
-        </p>
-        <br></br>
-        <p>
-          With 30 days still remaining and already $70,000 raised, Hull Breach is off to a strong start. 
-        </p>
+          No matter which system you use, Hull Breach Vol. 1 offers years of sci-fi roleplaying content and brain-meltingly gameable ideas: from multidimensional adventures to complete alien ecologies and space piracy codes of conduct.        </p>
       </article>
     </div>
   )

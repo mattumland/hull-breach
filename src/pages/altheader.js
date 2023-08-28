@@ -15,8 +15,8 @@ export default function Component () {
           className="alt-banner-link-image"
         />
       </Link>
-      <a className="alt-banner-link" href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1?ref=avaier" target="_blank" rel="noopener noreferrer">
-        <p className="alt-link-text">Live on Kickstarter</p>
+      <a className="alt-banner-link" href="https://shop.anodyneprintware.com/products/hull-breach-vol-1" target="_blank" rel="noopener noreferrer">
+        <p className="alt-link-text">Now Available</p>
       </a> 
     </header>
   )
