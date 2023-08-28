@@ -95,7 +95,7 @@ class IndexPage extends React.Component {
                   <li>New ways to play Mothership with expanded mechanics, alternate campaign frames and system hacks.</li>
                   <li>Over 50 original illustrations from an all-star roster of fan favorite and first time Mothership artists.</li>
                 </ul>
-                <a href="https://www.kickstarter.com/projects/yusem/hull-breach-vol-1?ref=avaier" target="_blank" rel="noopener noreferrer">
+                <a href="https://shop.anodyneprintware.com/products/hull-breach-vol-1" target="_blank" rel="noopener noreferrer">
                   <p className="description-link">Now Available</p>
                 </a>  
               </div>
